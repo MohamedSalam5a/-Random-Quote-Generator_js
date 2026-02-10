@@ -1,0 +1,89 @@
+/* Mobile */
+@media screen and (max-width: 639px) {
+    
+  .quote {
+    max-width: 90%;
+    height: 85vh;
+    margin-top: 30px;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  #text-quote p:first-child {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  #text-quote p:last-child {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+}
+
+/* ============================= */
+
+/* Sm */
+@media screen and (min-width: 640px) {
+  .quote {
+    max-width: 90%;
+    height: 85vh;
+    margin-top: 30px;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  #text-quote p:first-child {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  #text-quote p:last-child {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+}
+
+/* ================================== */
+
+/* md */
+@media screen and (min-width: 768px) {
+  .quote {
+    max-width: 40%;
+    height: 85vh;
+    margin-top: 30px;
+  }
+}
+
+/* ================================= */
+
+/* lg */
+@media screen and (min-width: 1024px) {
+}
+
+/* ================================= */
+
+/* xl */
+@media screen and (min-width: 1208px) {
+}
+
+/* ================================= */
+
+/* xxl */
+@media screen and (min-width: 1536px) {
+}

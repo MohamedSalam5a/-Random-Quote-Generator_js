@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Playwrite NZ Basic", cursive;
+}
+
+body {
+  background: linear-gradient(90deg, #0f1122 0%, #253274 100%);
+}
+
+.quote {
+  background-color: rgb(167, 167, 221);
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  margin-top: 70px;
+  border: 4px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #5b7baa;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #517fa4;
+  margin-bottom: 30px;
+  text-shadow: 0 0 12px #2e4e68;
+}
+.p-One {
+  font-size: 22px;
+  color: #5f2375;
+}
+
+button {
+  background-image: linear-gradient(135deg, #5a5ad9 20%, #482e51 90%);
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: 4px solid slateblue;
+  transition: all 0.5s;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: slateblue;
+  border: 4px solid #0250c5;
+}
+
+#text-quote p:first-child {
+  color: #0250c5;
+  padding-top: 10px;
+  font-size: 25px;
+}
+#text-quote p:last-child {
+  color: #c50271;
+  padding-top: 10px;
+  font-size: 20px;
+}
